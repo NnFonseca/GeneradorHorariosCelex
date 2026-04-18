@@ -21,7 +21,7 @@ ReportLab: Motor de generación de PDFs para un control preciso del diseño y ta
 
 PyInstaller: Para la creación del archivo ejecutable (.exe).
 
->.[!NOTE]
+> .[!NOTE].
 >Requisitos
 >Si deseas ejecutar el código fuente, necesitarás instalar las dependencias:
 
