@@ -1,7 +1,7 @@
 Generador de Horarios CELEX - UAM Azcapotzalco
 Esta es una aplicación de escritorio desarrollada en Python diseñada para automatizar la creación de horarios en formato PDF para la Unidad Azcapotzalco de la UAM. El programa toma como entrada un archivo de texto con el listado de cursos abiertos y genera archivos individuales y estilizados para cada materia (UEA).
 
-🚀 Características
+ Características
 Procesamiento Inteligente: Lee y organiza automáticamente los datos de los cursos abiertos basándose en el formato oficial de la UAM.
 
 Diseño Profesional: Genera PDFs que imitan fielmente el diseño visual solicitado, con encabezados en rojo institucional y texto centrado.
@@ -12,7 +12,7 @@ Personalización: Permite al usuario ingresar manualmente el trimestre (ej. 26P)
 
 Automatización de Archivos: Separa automáticamente los horarios, creando un archivo PDF independiente por cada materia detectada (ej. Inglés I.pdf, Alemán II.pdf).
 
-🛠️ Tecnologías Utilizadas
+ Tecnologías Utilizadas
 Python 3.x
 
 Tkinter: Para la interfaz gráfica de usuario (GUI).
@@ -21,8 +21,9 @@ ReportLab: Motor de generación de PDFs para un control preciso del diseño y ta
 
 PyInstaller: Para la creación del archivo ejecutable (.exe).
 
-📋 Requisitos
-Si deseas ejecutar el código fuente, necesitarás instalar las dependencias:
+>.[!NOTE]
+>Requisitos
+>Si deseas ejecutar el código fuente, necesitarás instalar las dependencias:
 
 Bash
 pip install reportlab
