@@ -112,7 +112,7 @@ class AppGeneradorPDF:
  
         # Logo ─────────────────────────────────────────────────────────────────
         if os.path.exists(LOGO_PATH):
-            logo = RLImage(LOGO_PATH, width=110, height=65)
+            logo = RLImage(LOGO_PATH, width=200, height=90)
         else:
             # Si no se encuentra el logo, colocamos un texto de respaldo
             logo = Paragraph("<b>[logo_celex.png no encontrado]</b>", self.estilo_celda)
@@ -236,14 +236,14 @@ def procesar(entrada_trimestre):
 # ─── Ventana principal ───────────────────────────────────────────────────────
  
 ventana = tk.Tk()
-ventana.title("CELEX UAM-A — Generador de Horarios v3.0")
-ventana.geometry("420x240")
+ventana.title("CELEX UAM-A — Generador de Horarios v6.1")
+ventana.geometry("800x600")
 ventana.resizable(False, False)
  
 # Título
 tk.Label(
     ventana,
-    text="Convertidor de Cursos Abiertos",
+    text="Generador de Horarios CELEX UAM-A",
     font=("Arial", 12, "bold"),
     pady=16,
 ).pack()
